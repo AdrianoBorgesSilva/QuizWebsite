@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front end Q&A</title>
+    <link rel="stylesheet" href="js.css">
+</head>
+<body>
+    <section class="" id="quiz_questions">
+        <h3 id="question">Pergunta</h3>
+        <ul id="quizz_ul">
+            <li>
+                <input type="radio" name="answer" id="a" class="answer">
+                <label for="a" id="a_text">Answer</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="b" class="answer">
+                <label for="b" id="b_text">Answer</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="c" class="answer">
+                <label for="c" id="c_text">Answer</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="d" class="answer">
+                <label for="d" id="d_text">Answer</label>
+            </li>
+        </ul>
+        <button type="button" id="submit">Submit</button>
+    </section>
+    <div id="warning">
+        <p id="warning_text">Website made by <a href="https://www.linkedin.com/in/adriano-borges-577873262/" id="warning_link" target="_blank">Adriano Borges</a></p>
+    </div>
+    <header>
+        <a href="../main_page/index.html" id="header_text">Front end Q&A</a>
+    </header>
+    <main>
+        <nav class="" id="sidebar">
+            <p id="sidebar_text">Technologies</p>
+            <ul id="sidebar_ul">
+                <li>
+                    <a href="../HTML_page/html.html" class="sidebar_content">HTML5</a>
+                    <div class="sidebar_picture_container">
+                        <img src="../images/logo_HTML.png" alt="Html logo" class="sidebar_picture">
+                    </div>
+                </li>
+                <li>
+                    <a href="../CSS_page/css.html" class="sidebar_content">CSS3</a>
+                    <div class="sidebar_picture_container">
+                        <img src="../images/logo_CSS.png" alt="Css logo" class="sidebar_picture">
+                    </div>
+                </li>
+                <li>
+                    <a href="../JS_page/js.html" class="sidebar_content">JavaScript</a>
+                    <div class="sidebar_picture_container">
+                        <img src="../images/logo_JS.png" alt="Javascript logo" class="sidebar_picture">
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <section class="" id="content_container">
+            <div class="" id="quizz_btn_container">
+                <button type="button" id="quizz_btn">Quizz</button>
+                <article class="" id="content">
+                    <p id="reference">Question taken from Javatpoint</p>
+
+                    <h3>What is JavaScript?</h3>
+                    <p>JavaScript is a scripting language. It is different from Java language. It is object-based, lightweight, cross-platform translated language. It is widely used for client-side validation.</p><br>
+
+                    <h3>What is the difference between == and ===?</h3>
+                    <p>The == operator checks equality only whereas === checks equality, and data type, i.e., a value must be of the same type.</p><br>
+
+                    <h3>How to create objects in JavaScript?</h3>
+                    <p>
+                        There are 3 ways to create an object in JavaScript.<br>
+                        
+                        <ul class="content_ul">
+                            <li>By object literal.</li>
+                            <li>By creating an instance of Object.</li>
+                            <li>By Object Constructor.</li>
+                        </ul>
+                    </p><br>
+
+                    <h3>What is the output of 10+20+"30" in JavaScript?</h3>
+                    <p>3030 because 10+20 will be 30. If there is numeric value before and after +, it treats as binary + (arithmetic operator).</p><br>
+
+                    <h3>What's the difference between event.preventDefault() and event.stopPropagation() methods in JavaScript?</h3>
+                    <p>
+                        In JavaScript, the event.preventDefault() method is used to prevent the default behavior of an element.<br>
+                        
+                        For example: If you use it in a form element, it prevents it from submitting. If used in an anchor element, it prevents it from navigating. If used in a contextmenu, it prevents it from showing or displaying.<br>
+                        
+                        On the other hand, the event.stopPropagation() method is used to stop the propagation of an event or stop the event from occurring in the bubbling or capturing phase.
+                    </p><br>
+
+                    <h3>What is the difference between undefined value and null value?</h3>
+                    <p>
+                        <strong>Undefined value:</strong> A value that is not defined and has no keyword is known as undefined value.<br>
+                        <strong>Null value:</strong> A value that is explicitly specified by the keyword "null" is known as a null value.
+                    </p><br>
+
+                    <h3>What is the ‘this’ keyword in JavaScript?</h3>
+                    <p>The ‘this’ keyword in JavaScript refers to the currently calling object. It is commonly used in constructors to assign values to object properties.</p><br>
+
+                    <h3>What’s the difference between let and var?</h3>
+                    <p>Both let and var are used for variable and method declarations in JavaScript. So there isn’t much of a difference between these two besides that while var keyword is scoped by function, the let keyword is scoped by a block.</p><br>
+
+                    <h3>What are the arrow functions in JavaScript?</h3>
+                    <p>Arrow functions are a short and concise way of writing functions in JavaScript. The general syntax of an arrow function is: <code style="font-size: 1.3em;">const name = ()=>{}</code></p><br>
+
+                    <h3>What are the different ways an HTML element can be accessed in a JavaScript code?</h3>
+                    <p>
+                        Here are the ways an HTML element can be accessed in a JavaScript code:<br>
+                        <ul class="content_ul">
+                            <li><strong>getElementByClass(‘classname’):</strong> Gets all the HTML elements that have the specified classname.</li>
+                            <li><strong>getElementById(‘idname’):</strong> Gets an HTML element by its ID name.</li>
+                            <li><strong>getElementbyTagName(‘tagname’):</strong> Gets all the HTML elements that have the specified tagname.</li>
+                            <li><strong>querySelector():</strong> Takes CSS style selector and returns the first selected HTML element.</li>
+                        </ul>
+                    </p><br>
+
+                    <h3>What are some of the JavaScript frameworks and their uses?</h3>
+                    <p>
+                        JavaScript has a collection of many frameworks that aim towards fulfilling the different aspects of the web application development process. Some of the prominent frameworks are: <br>
+                        
+                        <ul class="content_ul">
+                            <li><strong>React</strong> - Frontend development of a web application.</li> <br>
+                            <li><strong>Angular</strong> - Frontend development of a web application.</li> <br>
+                            <li><strong>Node</strong> - Backend or server-side development of a web application.</li>
+                        </ul>
+                    </p><br>
+
+                    <h3>Higher Order Functions</h3>
+                    <p>Higher-order functions are the functions that take functions as arguments and return them by operating on other functions.</p><br>
+
+                    <h3>What is the use of a Number object in JavaScript?</h3>
+                    <p>The JavaScript number object enables you to represent a numeric value. It may be integer or floating-point. JavaScript number object follows the IEEE standard to represent the floating-point numbers.</p><br>
+
+                    <h3>What is the use of Math object in JavaScript?</h3>
+                    <p>The JavaScript math object provides several constants and methods to perform a mathematical operation. Unlike date object, it doesn't have constructors</p><br>
+
+                    <h3>What is the role of a strict mode in JavaScript?</h3>
+                    <p>The JavaScript strict mode is used to generates silent errors. It provides "use strict"; expression to enable the strict mode. This expression can only be placed as the first statement in a script or a function.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <script src="js.js"></script>
+</body>
+</html>
