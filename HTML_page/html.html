@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front end Q&A</title>
+    <link rel="stylesheet" href="html.css">
+</head>
+<body>
+    <section class="quiz_questions" id="quiz_questions">
+        <h3 id="question">Pergunta</h3>
+        <ul id="quizz_ul">
+            <li>
+                <input type="radio" name="answer" id="a" class="answer">
+                <label for="a" id="a_text">Answer</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="b" class="answer">
+                <label for="b" id="b_text">Answer</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="c" class="answer">
+                <label for="c" id="c_text">Answer</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="d" class="answer">
+                <label for="d" id="d_text">Answer</label>
+            </li>
+        </ul>
+        <button type="button" id="submit">Submit</button>
+    </section>
+    <div id="warning">
+        <p id="warning_text">Website made by <a href="https://www.linkedin.com/in/adriano-borges-577873262/" id="warning_link" target="_blank">Adriano Borges</a></p>
+    </div>
+    <header>
+        <a href="../main_page/index.html" id="header_text">Front end Q&A</a>
+    </header>
+    <main>
+        <nav class="" id="sidebar">
+            <p id="sidebar_text">Technologies</p>
+            <ul id="sidebar_ul">
+                <li>
+                    <a href="../HTML_page/html.html" class="sidebar_content">HTML5</a>
+                    <div class="sidebar_picture_container">
+                        <img src="../images/logo_HTML.png" alt="Html logo" class="sidebar_picture">
+                    </div>
+                </li>
+                <li>
+                    <a href="../CSS_page/css.html" class="sidebar_content">CSS3</a>
+                    <div class="sidebar_picture_container">
+                        <img src="../images/logo_CSS.png" alt="Css logo" class="sidebar_picture">
+                    </div>
+                </li>
+                <li>
+                    <a href="../JS_page/js.html" class="sidebar_content">JavaScript</a>
+                    <div class="sidebar_picture_container">
+                        <img src="../images/logo_JS.png" alt="Javascript logo" class="sidebar_picture">
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <section class="" id="content_container">
+            <div class="" id="quizz_btn_container">
+                <button type="button" id="quizz_btn">Quizz</button>
+                <article class="" id="content">
+                        <p id="reference">Question taken from Simplilearn</p>
+                        
+                        <h3>What is HTML?</h3>
+                        <p>HTML stands for Hyper Text Markup Language. It is a language of World Wide Web. It is a standard text formatting language which is used to create and display pages on the Web. It makes the text more interactive and dynamic. It can turn text into images, tables, links.</p><br>
+
+                        <h3>What are Tags?</h3>
+                        <p>HTML tags are the keywords on a web page that define how your web browser must format and display your web page. Almost all tags contain two parts, an opening, and a closing tag. For example, &lt;html&gt; is the opening tag and &lt;/html&gt; is the closing tag.</p><br>
+
+                        <h3>Do all HTML tags have an end tag?</h3>
+                        <p>No. There are some HTML tags that don't need a closing tag. For example: &lt;image&gt; tag, &lt;br&gt; tag.</p><br>
+
+                        <h3>What is formatting in HTML?</h3>
+                        <p>The HTML formatting is a process of format the text for a better look and feel. It uses different tags to make text bold, italicized, underlined.</p><br>
+
+                        <h3>How many types of heading does an HTML contain?</h3>
+                        <p>The HTML contains six types of headings which are defined with the &lt;h1&gt; to &lt;h6&gt; tags. Each type of heading tag displays different text size from another. So, &lt;h1&gt; is the largest heading tag and &lt;h6&gt; is the smallest one.</p><br>
+
+                        <h3>What hierarchy do the style sheets follow?</h3>
+                        <p>If a single selector includes three different style definitions, the definition that is closest to the actual tag takes precedence. Inline style takes priority over embedded style sheets, which takes priority over external style sheets.</p><br>
+
+                        <h3>What is the use of a span tag? Give one example.</h3>
+                        <p>The span tag is used for following things: for adding color on text, for adding background on text and Highlight any color text<br></p><br>
+
+                        <h3>What are some common lists that are used when designing a page?</h3>
+                        <p>There are many common lists which are used to design a page. You can choose any or a combination of the following list types:<br>
+                        
+                            <ul class="content_ul">
+                                <li><strong>Ordered list</strong> - The ordered list displays elements in numbered format. It is represented by &lt;ol&gt; tag.</li>
+                                <li><strong>Unordered list</strong> - The unordered list displays elements in bulleted format. It is represented by &lt;ul&gt; tag.</li>
+                                <li><strong>Definition list</strong> - The definition list displays elements in definition form like in dictionary. The &lt;dl&gt;, &lt;dt&gt; and &lt;dd&gt; tags are used to define description list.</li>
+                            </ul>
+                        </p><br>
+
+                        <h3>What is the difference between HTML elements and tags?</h3>
+                        <p>HTML elements communicate to the browser to render text. When the elements are enclosed by brackets &lt;&gt;, they form HTML tags. Most of the time, tags come in a pair and surround content.</p><br>
+
+                        <h3>What is semantic HTML?</h3>
+                        <p>Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics or meaning of the content. For example, in semantic HTML &lt;b&gt; &lt;/b&gt; tag is not used for bold statement as well as &lt;i&gt; &lt;/i&gt; tag is used for italic. Instead of these we use &lt;strong&gt;&lt;/strong&gt; and &lt;em&gt;&lt;/em&gt; tags.</p><br>
+
+                        <h3>How to insert a copyright symbol on a browser page?</h3>
+                        <p>You can insert a copyright symbol by using &copy;(& copy) or &#169;(& #169) in an HTML file.</p><br>
+
+                        <h3>How to create a nested webpage in HTML?</h3>
+                        <p>The HTML iframe tag is used to display a nested webpage. In other words, it represents a webpage within a webpage. The HTML &lt;iframe&gt; tag defines an inline frame.</p><br>
+
+                        <h3>Does a hyperlink only apply to text?</h3>
+                        <p>No, you can use hyperlinks on text and images both. The HTML anchor tag defines a hyperlink that links one page to another page. The "href" attribute is the most important attribute of the HTML anchor tag.</p><br>
+
+                        <h3>What is a style sheet?</h3>
+                        <p>A style sheet is used to build a consistent, transportable, and well-designed style template. You can add these templates on several different web pages. It describes the look and formatting of a document written in markup language.</p><br>
+
+                        <h3>How many tags can be used to separate a section of texts?</h3>
+                        <p>
+                            Three tags are used to separate the texts:<br>
+                            <ul class="content_ul">
+                                <li><strong>&lt;br&gt; tag</strong> - Usually &lt;br&gt; tag is used to separate the line of text. It breaks the current line and conveys the flow to the next line.</li>
+                                <li><strong>&lt;p&gt; tag</strong> - The &lt;p&gt; tag contains the text in the form of a new paragraph.</li>
+                                <li><strong>&lt;blockquote&gt; tag</strong> - It is used to define a large quoted section. If you have a large quotation, then put the entire text within &lt;blockquote&gt;.............&lt;/blockquote&gt; tag.</li>
+                            </ul>
+                        </p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <script src="html.js"></script>
+</body>
+</html>

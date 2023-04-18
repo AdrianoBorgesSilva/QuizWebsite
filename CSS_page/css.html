@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front end Q&A</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <section class="quiz_questions" id="quiz_questions">
+        <h3 id="question">Pergunta</h3>
+        <ul id="quizz_ul">
+            <li>
+                <input type="radio" name="answer" id="a" class="answer">
+                <label for="a" id="a_text">Answer</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="b" class="answer">
+                <label for="b" id="b_text">Answer</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="c" class="answer">
+                <label for="c" id="c_text">Answer</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="d" class="answer">
+                <label for="d" id="d_text">Answer</label>
+            </li>
+        </ul>
+        <button type="button" id="submit">Submit</button>
+    </section>
+    <div id="warning">
+        <p id="warning_text">Website made by <a href="https://www.linkedin.com/in/adriano-borges-577873262/" id="warning_link" target="_blank">Adriano Borges</a></p>
+    </div>
+    <header>
+        <a href="../main_page/index.html" id="header_text">Front end Q&A</a>
+    </header>
+    <main>
+        <nav class="" id="sidebar">
+            <p id="sidebar_text">Technologies</p>
+            <ul id="sidebar_ul">
+                <li>
+                    <a href="../HTML_page/html.html" class="sidebar_content">HTML5</a>
+                    <div class="sidebar_picture_container">
+                        <img src="../images/logo_HTML.png" alt="Html logo" class="sidebar_picture">
+                    </div>
+                </li>
+                <li>
+                    <a href="../CSS_page/css.html" class="sidebar_content">CSS3</a>
+                    <div class="sidebar_picture_container">
+                        <img src="../images/logo_CSS.png" alt="Css logo" class="sidebar_picture">
+                    </div>
+                </li>
+                <li>
+                    <a href="../JS_page/js.html" class="sidebar_content">JavaScript</a>
+                    <div class="sidebar_picture_container">
+                        <img src="../images/logo_JS.png" alt="Javascript logo" class="sidebar_picture">
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <section class="" id="content_container">
+            <div class="" id="quizz_btn_container">
+                <button type="button" id="quizz_btn">Quizz</button>
+                <article class="" id="content">
+                    <p id="reference">Question taken from Javatpoint and Simplilearn</p>
+                    
+                    <h3>What is CSS?</h3>
+                    <p>CSS stands for Cascading Style Sheet. It is a popular styling language which is used with HTML to design websites. </p><br>
+                    
+                    <h3>What do you understand by the universal sector?</h3>
+                    <p>A universal selector is a selector that matches any element type's name instead of selecting elements of a particular type.</p> <br>
+
+                    <h3>What are the elements of the CSS Box Model?</h3>
+                    <p>The CSS box model defines the layout and design of CSS elements. The elements are content (like text and images), padding (the area around content), border (the area around padding), and margin (the area around the border).</p><br>
+
+                    <h3>Differentiate between CSS3 and CSS2.</h3>
+                    <p>The main difference between CSS3 and CSS2 is that CSS divides different sections into modules and supports many browsers. It also contains new General Sibling Combinators responsible for matching similar elements. </p><br>
+
+                    <h3>How can CSS be integrated into an HTML page?</h3>
+                    <p>There are three ways of integrating CSS into HTML: using style tags in the head section, using inline-styling, writing CSS in a separate file, and linking into the HTML page by the link tag.</p><br>
+
+                    <h3>Explain a few advantages of CSS.</h3> 
+                    <p>With CSS, different documents can be controlled using a single site, styles can be grouped in complex situations using selectors and grouping methods, and multiple HTML elements can have classes.</p><br>
+
+                    <h3>What is the difference between a class and an ID?</h3>
+                    <p>Class is a way of using HTML elements for styling. They are not unique and have multiple elements. Whereas ID is unique and it can be assigned to a single element.</p><br>
+
+                    <h3>Define z-index.</h3>
+                    <p>Z-index is used to specify the stack order of elements that overlap each other. Its default value is zero and can take both negative and positive values. A higher z-index value is stacked above the lower index element. It takes the following values- auto, number, initial, and inherit.</p><br>
+
+                    <h3>How can you target h3 and h2 with the same styling?</h3>
+                    <p>Multiple elements can be targeted by separating with a comma: h2, h3 {color: red;}</p><br>
+
+                    <h3>Explain responsive web design.</h3> 
+                    <p>Responsive Design is a web page creation approach that uses flexible images, flexible layouts, and CSS media queries. This design approach aims to build web pages that detect the orientation and screen size of the visitors so that the layout can be changed accordingly.</p><br>
+
+                    <h3>What are the limitations of CSS?</h3>
+                    <p>
+                        CSS cannot always assure compatibility with every browser; you need to be cautious while choosing the style selector.
+                        The parent selector tag is not available, thus you can’t select the parent selector tag.
+                        Some selectors can lead to cross-browser issues due to their less browser-friendly behavior.
+                        We cannot request a webpage through CSS.
+                    </p><br>
+
+                    <h3>What are the different types of Selectors in CSS?</h3>
+                    <p>Universal Selector, Element type Selector, ID selector, Class selector, Descendant combinatory, Child Combinator, General Sibling Combinator, Adjacent sibling combinator, and Attribute selector.</p><br>
+
+                    <h3>What is the difference between inline, inline-block, and block?</h3>
+                    <p>
+                        Block Elements are &lt;div&gt; and &lt;p&gt;. They usually start on a new line and can take space for an entire row or width.
+                        Inline elements are &lt;a&gt;, &lt;span&gt;, &lt;strong&gt;, and &lt;img&gt; tags. They don't start on a new line. However, they appear on the same line as the content and tags beside them.
+                        Inline block elements have padding and margins and set height and width values. Though, they are similar to inline elements.
+                    </p><br>
+
+                    <h3>What are Pseudo classes?</h3>
+                    <p>Pseudo-classes are the type of pseudo-elements that don’t exist in a normal document tree. It allows selecting the regular elements under certain conditions especially when we try to hover over the link; the anchor tags are :link, :visited, :hover, :active, :focus</p><br>
+
+                    <h3>What is the use of % unit?</h3>
+                    <p>It is used for defining percentage values.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <script src="css.js"></script>
+</body>
+</html>
