@@ -120,6 +120,23 @@ ul li:hover{
     object-fit: cover;
 }
 
+#sidebar_arrow {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    left: 100%;
+    top: -40%;
+    display: none;
+    cursor: pointer;
+}
+
+#sidebar_arrow img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /*Content*/
 #content_container {
     width: 100%;
@@ -147,8 +164,22 @@ ul li:hover{
 
 @media (max-width: 700px){
     #sidebar {
-        /*transform: translateX(-100%);*/
+        transform: translateX(-100%);
         z-index: 1;
+    }
+
+    .sidebar_show {
+        transform: translateX(0%);
+    }
+
+    #sidebar_arrow {
+        display: block;
+    }
+    
+    #sidebar_arrow img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     #welcome {
