@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 :root {
@@ -137,6 +147,28 @@ ul li:hover{
 
 @media (max-width: 700px){
     #sidebar {
+        /*transform: translateX(-100%);*/
+        z-index: 1;
+    }
 
+    #welcome {
+        width: 450px;
+        height: fit-content;
+        position: relative;
+        top: 15%;
+        left: -40%;
+    }
+
+    #welcome h2 {
+        font-family: var(--fonte);
+        color: #8C52FF;
+        font-weight: 700;
+        font-size: 1.4em;
+    }
+    
+    #welcome p {
+        font-family: var(--fonte);
+        text-align: justify;
+        font-size: 0.9em;
     }
 }
