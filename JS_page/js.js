@@ -113,9 +113,9 @@ const quizData = [
     },
     {
         question: 'What is the role of a strict mode in JavaScript?',
-        a: 'The JavaScript strict mode is used to generates silent errors. It provides "use strict"; expression to enable the strict mode. This expression can only be placed as the first statement in a script or a function.',
-        b: 'The JavaScript strict mode is used to generates silent errors. It provides "use strict"; expression to enable the strict mode. This expression can only be placed anywhere in a script or a function.',
-        c: 'The JavaScript strict mode is used to generates silent errors. It provides "@charset use strict"; expression to enable the strict mode. This expression can only be placed as the first statement in a script or a function.',
+        a: 'JavaScript must be written in certain way. It provides "use strict"; expression to enable the strict mode.',
+        b: 'JavaScript must be written in certain way. It provides "function strict()"; expression to enable the strict mode.',
+        c: 'JavaScript does not need be written in certain way. It provides "use strict"; expression to enable the strict mode.',
         d: 'None of the above',
         correct: 'a',
     },
