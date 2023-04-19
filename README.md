@@ -1,5 +1,4 @@
 # QuizWebsite
- A site with questions from the three front end technologies
+A question and answer website
 
-
-Not finished yet
+Not full responsive yet
