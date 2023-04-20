@@ -124,6 +124,9 @@ const quizData = [
 const quizz_btn = document.getElementById('quizz_btn')
 const quiz_questions = document.getElementById('quiz_questions')
 
+const sidebar_arrow = document.getElementById('sidebar_arrow')
+const sidebar = document.getElementById('sidebar')
+
 const answerEls = document.querySelectorAll('.answer')
 const questionEl = document.getElementById('question')
 const a_text = document.getElementById('a_text')
@@ -131,6 +134,10 @@ const b_text = document.getElementById('b_text')
 const c_text = document.getElementById('c_text')
 const d_text = document.getElementById('d_text')
 const submitBtn = document.getElementById('submit')
+
+sidebar_arrow.addEventListener('click', ()=>{
+    sidebar.classList.toggle('sidebar_show')
+})
 
 quizz_btn.addEventListener('click', ()=>{
     quiz_questions.classList.toggle('show')
